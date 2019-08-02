@@ -12,6 +12,12 @@
 		1ED9A8C722F433AA00CB26AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9A8C522F433AA00CB26AA /* Main.storyboard */; };
 		1ED9A8C922F433AE00CB26AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9A8C822F433AE00CB26AA /* Assets.xcassets */; };
 		1ED9A8CC22F433AE00CB26AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9A8CA22F433AE00CB26AA /* LaunchScreen.storyboard */; };
+		1ED9A90322F45AD000CB26AA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED9A8FD22F45A9B00CB26AA /* Bolts.framework */; };
+		1ED9A90422F45AD000CB26AA /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED9A8F922F45A9A00CB26AA /* FacebookCore.framework */; };
+		1ED9A90522F45AD000CB26AA /* FacebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED9A8FA22F45A9A00CB26AA /* FacebookLogin.framework */; };
+		1ED9A90622F45AD000CB26AA /* FacebookShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED9A8FC22F45A9B00CB26AA /* FacebookShare.framework */; };
+		1ED9A90722F45AD000CB26AA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED9A8FB22F45A9A00CB26AA /* FBSDKCoreKit.framework */; };
+		65E155FA7FCD3DEE59514B3D /* Pods_FacebookShareDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94A45C2DC50C776B39CDDC /* Pods_FacebookShareDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,19 @@
 		1ED9A8C822F433AE00CB26AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ED9A8CB22F433AE00CB26AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ED9A8CD22F433AE00CB26AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ED9A8D422F4470100CB26AA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		1ED9A8D522F4470100CB26AA /* FacebookLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookLogin.framework; path = Carthage/Build/iOS/FacebookLogin.framework; sourceTree = "<group>"; };
+		1ED9A8D622F4470100CB26AA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
+		1ED9A8D722F4470100CB26AA /* FacebookShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookShare.framework; path = Carthage/Build/iOS/FacebookShare.framework; sourceTree = "<group>"; };
+		1ED9A8D822F4470100CB26AA /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = Carthage/Build/iOS/FacebookCore.framework; sourceTree = "<group>"; };
+		1ED9A8F922F45A9A00CB26AA /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = Carthage/Build/iOS/FacebookCore.framework; sourceTree = SOURCE_ROOT; };
+		1ED9A8FA22F45A9A00CB26AA /* FacebookLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookLogin.framework; path = Carthage/Build/iOS/FacebookLogin.framework; sourceTree = SOURCE_ROOT; };
+		1ED9A8FB22F45A9A00CB26AA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = SOURCE_ROOT; };
+		1ED9A8FC22F45A9B00CB26AA /* FacebookShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookShare.framework; path = Carthage/Build/iOS/FacebookShare.framework; sourceTree = SOURCE_ROOT; };
+		1ED9A8FD22F45A9B00CB26AA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = SOURCE_ROOT; };
+		3D4C471490AB2E5E3386D7BD /* Pods-FacebookShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookShareDemo.release.xcconfig"; path = "Target Support Files/Pods-FacebookShareDemo/Pods-FacebookShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4D94A45C2DC50C776B39CDDC /* Pods_FacebookShareDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookShareDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CCEC00926795A8BA4E5279 /* Pods-FacebookShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookShareDemo.debug.xcconfig"; path = "Target Support Files/Pods-FacebookShareDemo/Pods-FacebookShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +48,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED9A90322F45AD000CB26AA /* Bolts.framework in Frameworks */,
+				1ED9A90422F45AD000CB26AA /* FacebookCore.framework in Frameworks */,
+				1ED9A90522F45AD000CB26AA /* FacebookLogin.framework in Frameworks */,
+				1ED9A90622F45AD000CB26AA /* FacebookShare.framework in Frameworks */,
+				1ED9A90722F45AD000CB26AA /* FBSDKCoreKit.framework in Frameworks */,
+				65E155FA7FCD3DEE59514B3D /* Pods_FacebookShareDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				1ED9A8C022F433AA00CB26AA /* FacebookShareDemo */,
 				1ED9A8BF22F433AA00CB26AA /* Products */,
+				1ED9A8D322F4470000CB26AA /* Frameworks */,
+				CEDC2399CC5030D09375EA87 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +87,35 @@
 				1ED9A8C822F433AE00CB26AA /* Assets.xcassets */,
 				1ED9A8CA22F433AE00CB26AA /* LaunchScreen.storyboard */,
 				1ED9A8CD22F433AE00CB26AA /* Info.plist */,
+				1ED9A8FD22F45A9B00CB26AA /* Bolts.framework */,
+				1ED9A8F922F45A9A00CB26AA /* FacebookCore.framework */,
+				1ED9A8FA22F45A9A00CB26AA /* FacebookLogin.framework */,
+				1ED9A8FC22F45A9B00CB26AA /* FacebookShare.framework */,
+				1ED9A8FB22F45A9A00CB26AA /* FBSDKCoreKit.framework */,
 			);
 			path = FacebookShareDemo;
+			sourceTree = "<group>";
+		};
+		1ED9A8D322F4470000CB26AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ED9A8D622F4470100CB26AA /* Bolts.framework */,
+				1ED9A8D822F4470100CB26AA /* FacebookCore.framework */,
+				1ED9A8D522F4470100CB26AA /* FacebookLogin.framework */,
+				1ED9A8D722F4470100CB26AA /* FacebookShare.framework */,
+				1ED9A8D422F4470100CB26AA /* FBSDKCoreKit.framework */,
+				4D94A45C2DC50C776B39CDDC /* Pods_FacebookShareDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDC2399CC5030D09375EA87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92CCEC00926795A8BA4E5279 /* Pods-FacebookShareDemo.debug.xcconfig */,
+				3D4C471490AB2E5E3386D7BD /* Pods-FacebookShareDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1ED9A8D022F433AE00CB26AA /* Build configuration list for PBXNativeTarget "FacebookShareDemo" */;
 			buildPhases = (
+				3B7123BFC695D1CE3BBA7047 /* [CP] Check Pods Manifest.lock */,
 				1ED9A8BA22F433AA00CB26AA /* Sources */,
 				1ED9A8BB22F433AA00CB26AA /* Frameworks */,
 				1ED9A8BC22F433AA00CB26AA /* Resources */,
+				1ED9A8DE22F4484D00CB26AA /* ShellScript */,
+				430C85C5FC2DF8133D573870 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +186,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED9A8DE22F4484D00CB26AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/FacebookCore.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FBSDKCoreKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Bolts.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FacebookLogin.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FacebookShare.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+		3B7123BFC695D1CE3BBA7047 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FacebookShareDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		430C85C5FC2DF8133D573870 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FacebookShareDemo/Pods-FacebookShareDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FacebookShareDemo/Pods-FacebookShareDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1ED9A8BA22F433AA00CB26AA /* Sources */ = {
@@ -280,11 +416,17 @@
 		};
 		1ED9A8D122F433AE00CB26AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CCEC00926795A8BA4E5279 /* Pods-FacebookShareDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVX3Z89597;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FacebookShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +440,17 @@
 		};
 		1ED9A8D222F433AE00CB26AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4C471490AB2E5E3386D7BD /* Pods-FacebookShareDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVX3Z89597;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FacebookShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
